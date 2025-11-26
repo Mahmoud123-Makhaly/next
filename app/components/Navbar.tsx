@@ -10,16 +10,20 @@ const Navbar = () => {
       href: "/",
     },
     {
-      title: "Products",
-      href: "/products",
+      title: "Blog",
+      href: "/blog",
     },
+    // {
+    //   title: "Categories",
+    //   href: "/categories",
+    // },
+    // {
+    //   title: "Offers",
+    //   href: "/offers",
+    // },
     {
-      title: "Categories",
-      href: "/categories",
-    },
-    {
-      title: "Offers",
-      href: "/offers",
+      title: "About",
+      href: "/about",
     },
   ];
   return (

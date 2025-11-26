@@ -1,7 +1,7 @@
 const Categories = async () => {
   const res = await fetch("http://localhost:4000/category");
   const data = await res.json();
-  console.log(data);
+
   return (
     <>
       <h1 className="pt-24"> Categories </h1>
